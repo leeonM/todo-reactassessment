@@ -1,0 +1,20 @@
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    height: 30px;
+    width: 300px;
+    outline: none;
+    padding: 5px;
+}
+
+.inputButton {
+    height: 42px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #7C81AD;
+}

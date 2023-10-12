@@ -1,0 +1,39 @@
+.todoItem{
+    display: flex;
+    background-color: #7C81AD;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 5px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.todoButtons {
+    display: flex;
+    gap: 5px;
+}
+
+.done {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    color: green;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+.delete {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    color: red;
+    border-radius: 5px;
+}
