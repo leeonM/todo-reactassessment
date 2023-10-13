@@ -9,12 +9,13 @@ const InputField = () => {
   
   const handleSubmit = (e) => {
     e.preventDefault()
-
+    // if input field is empty it cannot submit blank todos
     if (!todoItem){
       return
     }
 
     addTodo(todoItem)
+    //clear input field
     setTodoItem("")
     alert("Todo added successfully")
   }

@@ -14,26 +14,32 @@
     gap: 5px;
 }
 
-.done {
+button {
     background-color: white;
     border: none;
     padding: 10px;
+    cursor: pointer;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: black;
+}
+
+.done {
     color: green;
     border-radius: 5px;
 }
 
+
 .edit {
-    background-color: white;
-    border: none;
-    padding: 10px;
+
     color: darkblue;
     border-radius: 5px;
 }
 
 .delete {
-    background-color: white;
-    border: none;
-    padding: 10px;
+
     color: red;
     border-radius: 5px;
 }
