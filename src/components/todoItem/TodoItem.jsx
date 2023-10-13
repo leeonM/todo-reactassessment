@@ -1,9 +1,9 @@
 import styles from  './TodoItem.module.css'
 
-const TodoItem = () => {
+const TodoItem = ({item}) => {
   return (
     <div className={styles.todoItem}>
-            <p>Wash clothes</p>
+            <p>{item}</p>
             <div className={styles.todoButtons}>
             <button className={styles.done}>Done</button>
             <button className={styles.edit}>Edit</button>
